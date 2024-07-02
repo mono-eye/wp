@@ -27,11 +27,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	}
-	img{
+	img, button{
 		border: none;
-		vertical-align:bottom;
+		/* 画像下部空き削除 */
+		vertical-align:top;
 		width: 100%;
-			height: auto;
+		height: auto;
 		}
 	
 	*,
